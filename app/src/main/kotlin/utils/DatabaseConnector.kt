@@ -6,6 +6,7 @@ import com.mongodb.client.MongoDatabase
 
 object DatabaseConnector {
     private const val CONNECTION_STRING = "mongodb+srv://shah392:qwerty123@cluster0.al3fi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+
     private const val DATABASE_NAME = "smartphones"
 
     val client: MongoClient by lazy {
